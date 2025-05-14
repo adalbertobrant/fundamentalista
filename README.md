@@ -52,14 +52,25 @@ Classifica uma ação como **Barata** se:
 
 ## ⚙️ Execução
 
+0. Crie um ambiente virutal
+   ````
+   python3 -m venv ambientevirtual
+
+   source ambientevirtual/bin/activate
+
+   ````
+
 1. Clone o repositório:
 
-````bash
-git clone https://github.com/seu-usuario/analise-acoes.git
-cd analise-acoes
+````
+git clone (https://github.com/adalbertobrant/fundamentalista.git)
+cd fundamentalista
+
+
+
 Instale os requisitos:
 
-```
+````
 pip install -r requirements.txt
 ```
 Execute o app
@@ -102,5 +113,4 @@ Integração com APIs alternativas como Finnhub ou Alpha Vantage
 
 Comparativo entre empresas
 
-👨‍💻 Autor
-Adalberto — Saúde, Segurança da informação, Linux, engenharia social, finanças e software livre.
+👨‍💻 Se achou legal mande umas stars não custa nada e me ajuda em um estágio!!!!
